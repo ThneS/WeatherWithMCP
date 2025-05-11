@@ -1,14 +1,25 @@
-# weather
+# Weather Demo
 
-A Simple Demo for MCP
-[Server](https://modelcontextprotocol.io/quickstart/server)
-[Client](https://modelcontextprotocol.io/quickstart/client)
+一个基于 MCP (Model Context Protocol) 的简单天气查询演示项目。
+
+## 快速开始
+
+### 安装依赖
 
 ```bash
-# usage
 rye sync .
+```
+
+### 运行项目
+
+```bash
 python src/client.py src/server.py
 ```
+
+## 相关文档
+
+- [MCP Server 文档](https://modelcontextprotocol.io/quickstart/server)
+- [MCP Client 文档](https://modelcontextprotocol.io/quickstart/client)
 
 ```bash
 python src/client.py src/server.py
@@ -33,4 +44,3 @@ I attempted to get the weather alerts for California, but it seems there was a t
 Please let me know how you'd like to proceed.
 
 Query: quit
-```
