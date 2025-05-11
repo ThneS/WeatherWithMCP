@@ -6,7 +6,7 @@ A Simple Demo for MCP
 
 ```bash
 # usage
-rye sync .git statu
+rye sync .
 python src/client.py src/server.py
 ```
 
