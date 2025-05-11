@@ -1,0 +1,29 @@
+[project]
+name = "weather"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Thne", email = "451101751@qq.com" }
+]
+dependencies = [
+    "mcp>=1.8.0",
+    "httpx>=0.28.1",
+    "anthropic>=0.51.0",
+    "python-dotenv>=1.1.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/weather"]
